@@ -33,6 +33,9 @@ Seed 清单见 [`seed_papers.md`](seed_papers.md)。首批精读页面已经按 
 | [HiEviDR-Bench](papers/data-synthesis/2607.25151.md) | 2026-07-27 | Tsinghua University；中科院；Northeastern University；Shanghai Jiao Tong University |
 | [FinanceHarness](papers/data-synthesis/2607.27853.md) | 2026-07-30 | Google Cloud AI Research；UCLA |
 | [FrontierScience](papers/data-synthesis/2601.21165.md) | 2026-01-29 | OpenAI |
+| [Video-DeepResearch](papers/data-synthesis/2608.03979.md) | 2026-08-04 | Video-DeepResearch Team（待核对） |
+| [From Simple QA to Deep Research](papers/data-synthesis/2608.02163.md) | 2026-08-03 | Shandong Key Laboratory；Alibaba Token Hub；ICT-CAS；PolyU |
+| [SIEVE](papers/data-synthesis/2608.02751.md) | 2026-08-05 | University of Queensland；CSIRO |
 
 #### Harness RSI
 
@@ -41,6 +44,8 @@ Seed 清单见 [`seed_papers.md`](seed_papers.md)。首批精读页面已经按 
 | [EvoTrainer](papers/harness-rsi/2606.03108.md) | 2026-06-02 | Alibaba Group；中科院；SUAT |
 | [Recuris](papers/harness-rsi/2608.24876.md) | 2026-08-25 | NUS；Princeton；Stanford；Oxford |
 | [EvoHarness-RL](papers/harness-rsi/2608.05446.md) | 2026-08-05 | Meta AI；UIUC |
+| [JIT-Agent](papers/harness-rsi/2608.25593.md) | 2026-08-26 | LV-NUS Lab（待核对） |
+| [Agent Lightning v1.0](papers/harness-rsi/2608.17528.md) | 2026-08-18 | Microsoft；Fudan University；Zhejiang University；University of Edinburgh |
 
 ## 收录标准
 
