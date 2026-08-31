@@ -6,4 +6,4 @@ Before every review run, read `README.md`, `CONTEXT.md`, `PROCESS.md`, `seed_pap
 
 Use one primary Track per paper: `Data Synthesis`, `Rubric RL`, or `Harness RSI`. A paper may have auxiliary tags but must appear only once in the README. Preserve original English titles, write notes in Chinese, and record submitted date, last update, version, authors, and major institutions from the primary paper/project source.
 
-Do not save PDFs. Do not invent affiliations, metrics, citation relationships, or experiment details; write “待核对” when the source is insufficient. Run `python3 scripts/check_repo.py` before creating a Draft PR. Never merge the PR automatically.
+Do not save PDFs or Mermaid diagrams. Each paper page has one source-linked primary architecture figure. Do not invent affiliations, metrics, citation relationships, or experiment details; write “待核对” when the source is insufficient. Run `python3 scripts/check_repo.py` before creating a Draft PR. Never merge the PR automatically.

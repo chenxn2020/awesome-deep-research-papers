@@ -21,7 +21,7 @@
 本次 Review Run：
 1. 从 arXiv 最近 30 天、Hugging Face Daily Papers、每个 Seed 的 related work/references/citing papers 中发现候选；必要时查看论文项目页、代码和数据集页。
 2. 去重后最多保留 30 篇摘要候选。按 Seed 相似性和 PROCESS.md 的标准筛选，最多精读 5 篇全文。
-3. 每篇精读页面记录标题、arXiv ID、版本、提交/更新日期、作者、主要机构、主 Track、辅助标签、中文精读笔记、证据强度、局限和所有外部链接。不要下载或提交 PDF。
+3. 每篇精读页面记录标题、arXiv ID、版本、提交/更新日期、作者、主要机构、主 Track、辅助标签、中文精读笔记、证据强度、局限和所有外部链接。每篇只放一张原文主要架构图入口，不使用 Mermaid；不要下载或提交 PDF。
 4. 将新论文写入 papers/<track>/<arxiv-id>.md；README 只列一次。论文可多标签，但只能有一个主 Track。
 5. 运行本地检查：Markdown 文件存在、arXiv ID 唯一、日期和主要机构非空、链接可解析。没有合格新论文时不创建 PR。
 6. 有合格新论文时提交清晰的 commit，并创建 Draft PR；不要自动合并。PR 描述列出候选数、全文数、收录数、每篇主 Track 和排除原因摘要。
