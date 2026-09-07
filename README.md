@@ -7,6 +7,8 @@
 - [Data Synthesis](papers/data-synthesis/)：附件输入、证据链和图文交错报告的数据与评测构造。
 - [Rubric RL](papers/rubric-rl/)：Rubric 的自演进、优化，以及 criterion-level 信号在 RL 中的保留。
 - [Harness RSI](papers/harness-rsi/)：Harness/skill 从训练和执行经验中持续演进。
+- [Credit Assignment](papers/credit-assignment/)：Agent RL 中将结果归因到步骤、工具调用、token 或子目标。
+- [Official Lab Blogs](blogs/)：Anthropic、OpenAI 等前沿 AI 公司的官方博客解读。
 
 ## 当前 Seed
 
@@ -47,15 +49,22 @@ Seed 清单见 [`seed_papers.md`](seed_papers.md)。首批精读页面已经按 
 | [JIT-Agent](papers/harness-rsi/2608.25593.md) | 2026-08-26 | LV-NUS Lab（待核对） |
 | [Agent Lightning v1.0](papers/harness-rsi/2608.17528.md) | 2026-08-18 | Microsoft；Fudan University；Zhejiang University；University of Edinburgh |
 
+#### Credit Assignment
+
+| 论文 | 日期 | 主要机构 |
+| --- | --- | --- |
+| [Information Gain-based Policy Optimization](papers/credit-assignment/2510.14967.md) | 2025-10-16 | Ant Group Venus Team；Renmin University of China；Individual Author |
+| [From Reasoning to Agentic](papers/credit-assignment/2604.09459.md) | 2026-04-10 | 待核对 |
+
 ## 收录标准
 
-论文必须能直接帮助理解上述方向之一，并通过 Seed 相似性、相关工作、引用链或 Hugging Face Daily Papers 发现。候选先进入 Draft PR；用户合并后才算正式收录。
+论文必须能直接帮助理解上述方向之一，并通过 Seed 相似性、相关工作、引用链或 Hugging Face Daily Papers 发现。候选先记录在 GitHub Issue；用户确认后才算正式收录。
 
-每次 Review Run 最多审核 30 篇摘要、精读 5 篇全文，最终收录 0–5 篇。没有合格论文时不创建 PR。仓库只保存 Markdown 和外部论文链接，不保存 PDF。
+每次 Review Run 最多审核 30 篇摘要；每个论文方向新增 0–3 篇。官方博客没有合格官方原文时不更新。没有合格内容时不提交。仓库只保存 Markdown 和外部论文链接，不保存 PDF。
 
 ## 自动运行
 
-按 [`AUTOMATION.md`](AUTOMATION.md) 在 Codex 桌面端创建每周一、周四 09:00（Asia/Shanghai）的 Scheduled Task。任务使用独立 Git worktree，先本地检查，再创建 Draft PR；用户负责最终合并。
+按 [`AUTOMATION.md`](AUTOMATION.md) 在 Codex 桌面端创建每周一、周四 09:00（Asia/Shanghai）的 Scheduled Task。任务使用独立 Git worktree，先本地检查，再直接提交 `main` 并更新 GitHub Issue。
 
 ## 目录
 
