@@ -34,7 +34,7 @@ def main() -> int:
             errors.append(f"arXiv ID 重复: {arxiv_id} ({ids[arxiv_id]}, {path})")
         ids[arxiv_id] = path
         for url in re.findall(r"https?://[^)\s]+", text):
-            if not (url.startswith("https://arxiv.org/") or url.startswith("https://github.com/") or url.startswith("https://huggingface.co/") or url.startswith("https://nvlabs.github.io/") or url.startswith("https://financegym.github.io/") or url.startswith("https://miroeval-ai.github.io/") or url.startswith("https://ai9stars.github.io/") or url.startswith("https://mmdeepresearch-bench.github.io/")):
+            if not (url.startswith("https://arxiv.org/") or url.startswith("https://github.com/") or url.startswith("https://huggingface.co/") or url.startswith("https://mp.weixin.qq.com/") or url.startswith("https://nvlabs.github.io/") or url.startswith("https://financegym.github.io/") or url.startswith("https://miroeval-ai.github.io/") or url.startswith("https://ai9stars.github.io/") or url.startswith("https://mmdeepresearch-bench.github.io/")):
                 errors.append(f"{path}: 外部链接需人工核对 {url}")
 
     if errors:
