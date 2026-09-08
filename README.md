@@ -9,6 +9,7 @@
 - [Harness RSI](papers/harness-rsi/)：Harness/skill 从训练和执行经验中持续演进。
 - [Credit Assignment](papers/credit-assignment/)：Agent RL 中将结果归因到步骤、工具调用、token 或子目标。
 - [Official Lab Blogs](blogs/)：Anthropic、OpenAI 等前沿 AI 公司的官方博客解读。
+- [Others](others/README.md)：手动提交、超出已有方向的论文、文章、项目和工具。
 
 ## 当前 Seed
 
@@ -67,14 +68,22 @@ Seed 清单见 [`seed_papers.md`](seed_papers.md)。首批精读页面已经按 
 
 按 [`AUTOMATION.md`](AUTOMATION.md) 在 Codex 桌面端创建每周一、周四 09:00（Asia/Shanghai）的 Scheduled Task。任务使用独立 Git worktree，先本地检查，再直接提交 `main` 并更新 GitHub Issue。
 
+## 微信手动收录
+
+继续把公众号和小红书资料分享到微信 `nxc` 自聊，再通过 Dukou 把选中的记录导入本项目的 Codex 任务。检查附件和附加提示词后发送，即可开始精读。论文与非论文资源均可提交；保留推送出处，符合已有模块就归类，超范围内容进入 Others。结果先保存为草稿，确认后正式收录。操作见 [`DUKOU.md`](DUKOU.md)，收录规则见 [`CHAT-CODEX.md`](CHAT-CODEX.md)。
+
 ## 目录
 
 ```text
 papers/<track>/<arxiv-id>.md  精读页面
+others/<slug>.md             用户主动提交的超范围资源
 seed_papers.md                用户维护的 Seed
 PROCESS.md                    审核与写作协议
 AUTOMATION.md                 Scheduled Task 提示词与运行说明
+CHAT-CODEX.md                 微信手动收录协议
+DUKOU.md                      nxc 微信聊天记录导入配置
 paper-template.md             新论文模板
+resource-template.md          非论文资源模板
 scripts/check_repo.py         本地元数据与链接格式检查
 ```
 

@@ -25,6 +25,7 @@
 4. 将新论文写入 papers/<track>/<arxiv-id>.md；README 只列一次。论文可多标签，但只能有一个主 Track。
 5. 运行本地检查：Markdown 文件存在、arXiv ID 唯一、日期和主要机构非空、链接可解析。博客条目必须来自官方域名。没有合格新内容时不提交。
 6. 有合格新内容时提交清晰的 commit 直接到 `main`，并创建/更新一个 GitHub Issue 记录候选数、收录数、每篇主模块和排除原因摘要；不要创建 PR。
+7. Codex 参与提交时，在 commit message 末尾追加 `Co-authored-by: Codex <noreply@openai.com>` trailer。
 
 停止条件：任一论文 Track 达到 3 篇新增时停止该 Track；所有论文 Track 均完成或摘要候选达到 30 篇时结束。缺少某个论文 Track 的 Seed 时暂停该 Track，但继续处理其他模块。官方博客没有合格原文时直接跳过。遇到无法确认的机构、日期、实验数字或引用关系，标记“待核对”，不要猜测。
 ``` 
