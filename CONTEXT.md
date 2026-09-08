@@ -16,6 +16,10 @@ _Avoid_: 候选论文、推荐论文
 从外部来源发现、但尚未完成全文审核和入库确认的论文。
 _Avoid_: 已收录论文、推荐论文
 
+**Manual Submission**:
+由用户主动提交、要求立即查阅原文并形成精读笔记的论文或有价值的非论文链接；保留发现该内容的推送出处。
+_Avoid_: 自动发现候选、仅保存链接的待读项
+
 **Curated Paper**:
 完成全文审核，并通过用户确认后正式进入仓库的论文。
 _Avoid_: 候选论文、自动入选论文
@@ -39,6 +43,10 @@ _Avoid_: 只有通用 RL 理论、没有 agent 轨迹或任务级归因机制的
 **Official Lab Blog**:
 Anthropic、OpenAI 等前沿 AI 公司的官方博客文章，且内容直接解释 Deep Research、Agent RL、Rubric、Harness 或相关评测。
 _Avoid_: 个人博客、媒体转载、无原始出处的二手解读
+
+**Others**:
+超出四个论文 Track 和 Official Lab Blogs、但由用户主动提交且值得整理的资源模块；可收录非论文文章、项目、工具或讨论。
+_Avoid_: 自动发现论文的兜底分类、未整理的链接清单
 
 **Multimodal Deep Research Dataset**:
 服务于图文输入、图文证据检索或图文交错研究报告生成的数据集/Benchmark。
