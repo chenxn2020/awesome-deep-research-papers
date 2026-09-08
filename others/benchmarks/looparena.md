@@ -6,27 +6,12 @@
 - **最后更新**: 2026-08-28（目前仅 v1）
 - **作者**: Yi Wang；Haopeng Zhang；Chengxiang Huang；Rui Dai；Kaikui Liu；Piotr Koniusz；Xiangxiang Chu
 - **主要机构**: DreamX Team, Alibaba Group；Beijing University of Posts and Telecommunications；UNSW Sydney；Data61, CSIRO。机构按论文 HTML 首页列示，逐作者机构映射未从该页可靠解析。
-- **建议模块**: `Others`
+- **主方向**: `Others / Benchmarks`
 - **辅助标签**: `loop-engineering`、`controller-evaluation`、`coding-agents`、`long-horizon`、`benchmark`
-- **阅读状态**: 手动提交全文精读；已读 arXiv HTML 正文 §1–8、附录 §9–17，并交叉核对官方协议、发布结果与相关源码。
-- **收录状态**: **待确认收录**
-- **拟写入路径**: `others/looparena.md`
-- **原文许可**: CC BY 4.0；代码与文档为 Apache-2.0，上游任务材料保留各自许可。
-
-元数据依据：[arXiv 摘要与版本历史](https://arxiv.org/abs/2608.28281)、[论文 HTML 首页](https://arxiv.org/html/2608.28281v1)、[官方仓库许可说明](https://github.com/AMAP-ML/LoopArena)。
-
-## 手动收录记录
-
+- **发现来源**: 微信公众号「智猩猩 AI」，经微信联系人 `nxc` 转发
+- **推送 URL**: [微信原始分享链接](https://mp.weixin.qq.com/s?__biz=MjM5ODExNDA2MA==&mid=2450014664&idx=1&sn=48760fa1113d634cadb3f3e5a1090554&chksm=b058749d14a4a7d80003970f1f2bf82e0c7d35384808297f31dfec08a13d1d7487ac202a3da1&mpshare=1&scene=1&srcid=0907QfpQwTD9Rp9WLER12gI5&sharer_shareinfo=08c61788afdb258bfd35925ec6fbe3b6&sharer_shareinfo_first=08c61788afdb258bfd35925ec6fbe3b6#rd)
 - **收到日期**: 2026-09-08（Asia/Shanghai）
-- **入口**: Dukou 导入的 nxc 联系人聊天记录；本次 ZIP 仅含一条文本链接记录。
-- **聊天记录时间**: 2026-09-07 14:07（导出文本中的时间，未另行转换时区）。
-- **发现来源**: 微信公众号「智猩猩 AI」，依据用户提供的微信分享卡片截图；导出 TXT 本身只有 nxc、时间、标题与 URL，没有公众号署名。
-- **推送标题**: 阿里开源LoopArena，比拼五大模型Loop Engineering能力！海外博主直呼「太需要了」
-- **完整推送 URL**: [微信原始分享链接](https://mp.weixin.qq.com/s?__biz=MjM5ODExNDA2MA==&mid=2450014664&idx=1&sn=48760fa1113d634cadb3f3e5a1090554&chksm=b058749d14a4a7d80003970f1f2bf82e0c7d35384808297f31dfec08a13d1d7487ac202a3da1&mpshare=1&scene=1&srcid=0907QfpQwTD9Rp9WLER12gI5&sharer_shareinfo=08c61788afdb258bfd35925ec6fbe3b6&sharer_shareinfo_first=08c61788afdb258bfd35925ec6fbe3b6#rd)
-- **原始资源 URL**: [论文](https://arxiv.org/abs/2608.28281)、[作者官方代码与基准](https://github.com/AMAP-ML/LoopArena)、[项目页](https://amap-ml.github.io/LoopArena/)。论文与配套代码合并为同一条目。
-- **用户备注**: 无额外备注。
-- **去重结果**: 本库正式论文、Others、README 与既有报告未发现相同 arXiv ID、标题或官方仓库 URL；此次为新草稿，不自动成为 Seed。
-- **出处与证据的区分**: 公众号链接保留作发现出处；本次未依赖其正文或宣传性表述判断论文结果。精读依据为可读的论文全文和第一方材料。
+- **阅读状态**: 全文精读
 
 ## 一句话结论
 
@@ -136,7 +121,7 @@ Type I 的正确答案由执行确定：先选父轨迹、再选可恢复的非 
 
 ## 与 Seed 的关系
 
-建议归入 **Others**。本库 `Harness RSI` 要求训练或执行经验触发对 prompt、tools、skills、workflow、retrieval 或 scaffold 的验证后更新。LoopArena 固定执行 harness 与 Worker，只比较 Controller 在任务中的下一步决策；没有展示持久的 harness 更新、训练或晋升闭环。因此，运行时自适应指导本身不足以满足该 Track 的收录边界。[本库术语定义](../../CONTEXT.md)
+LoopArena 归入 **Others / Benchmarks**。本库 `Harness RSI` 要求训练或执行经验触发对 prompt、tools、skills、workflow、retrieval 或 scaffold 的验证后更新。LoopArena 固定执行 harness 与 Worker，只比较 Controller 在任务中的下一步决策；没有展示持久的 harness 更新、训练或晋升闭环。因此，运行时自适应指导本身不足以满足该 Track 的收录边界。[本库术语定义](../../CONTEXT.md)
 
 以下为本笔记的关联推断，不是声称原论文引用了这些 Seed：
 
@@ -171,5 +156,3 @@ Type I 的正确答案由执行确定：先选父轨迹、再选可恢复的非 
 - Dataset / Project: [项目主页](https://amap-ml.github.io/LoopArena/)、[Benchmark 数据目录](https://github.com/AMAP-ML/LoopArena/tree/main/benchmarks)
 - Protocol: [docs/protocol.md](https://github.com/AMAP-ML/LoopArena/blob/main/docs/protocol.md)
 - Results: [v0.1.0 发布说明](https://github.com/AMAP-ML/LoopArena/blob/main/results/0.1.0/README.md)、[summary.json](https://github.com/AMAP-ML/LoopArena/blob/main/results/0.1.0/summary.json)、[manifest.json](https://github.com/AMAP-ML/LoopArena/blob/main/results/0.1.0/manifest.json)
-
-本文件为草稿。用户明确确认 LoopArena 后，才整理至 `others/looparena.md` 并更新正式索引。

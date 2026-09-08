@@ -26,6 +26,7 @@ Seed 清单见 [`seed_papers.md`](seed_papers.md)。首批精读页面已经按 
 | [GDPO](papers/rubric-rl/2601.05242.md) | 2026-01-08 | NVIDIA；HKUST |
 | [CriPO](papers/rubric-rl/2607.18082.md) | 2026-07-20 | Zhejiang University；ByteDance |
 | [A Survey on Rubric-Guided RL](papers/rubric-rl/2608.27505.md) | 2026-08-27 | WeChat, Tencent；Independent Researcher |
+| [GEAR](papers/rubric-rl/2606.03361.md) | 2026-06-02 | Beihang University；Tsinghua University；BAAI |
 
 #### Data Synthesis
 
@@ -58,9 +59,15 @@ Seed 清单见 [`seed_papers.md`](seed_papers.md)。首批精读页面已经按 
 | [Information Gain-based Policy Optimization](papers/credit-assignment/2510.14967.md) | 2025-10-16 | Ant Group Venus Team；Renmin University of China；Individual Author |
 | [From Reasoning to Agentic](papers/credit-assignment/2604.09459.md) | 2026-04-10 | 待核对 |
 
+#### Others
+
+| 资源 | 主题 |
+| --- | --- |
+| [LoopArena](others/benchmarks/looparena.md) | Benchmarks |
+
 ## 收录标准
 
-论文必须能直接帮助理解上述方向之一，并通过 Seed 相似性、相关工作、引用链或 Hugging Face Daily Papers 发现。候选先记录在 GitHub Issue；用户确认后才算正式收录。
+自动 Review Run 发现的论文必须能直接帮助理解上述方向之一，并通过 Seed 相似性、相关工作、引用链或 Hugging Face Daily Papers 发现；候选先记录在 GitHub Issue。用户主动转发的内容已完成初筛，原文核实后按 [`CHAT-CODEX.md`](CHAT-CODEX.md) 直接收录。
 
 每次 Review Run 最多审核 30 篇摘要；每个论文方向新增 0–3 篇。官方博客没有合格官方原文时不更新。没有合格内容时不提交。仓库只保存 Markdown 和外部论文链接，不保存 PDF。
 
@@ -70,13 +77,13 @@ Seed 清单见 [`seed_papers.md`](seed_papers.md)。首批精读页面已经按 
 
 ## 微信手动收录
 
-继续把公众号和小红书资料分享到微信 `nxc` 自聊，再通过 Dukou 把选中的记录导入本项目的 Codex 任务。检查附件和附加提示词后发送，即可开始精读。论文与非论文资源均可提交；保留推送出处，符合已有模块就归类，超范围内容进入 Others。结果先保存为草稿，确认后正式收录。操作见 [`DUKOU.md`](DUKOU.md)，收录规则见 [`CHAT-CODEX.md`](CHAT-CODEX.md)。
+继续把公众号和小红书资料分享到微信 `nxc` 自聊，再通过 Dukou 把选中的记录导入本项目的 Codex 任务。你已完成初筛，Codex 核实原文、去重后直接按统一精读格式写入对应正式类别：论文归入四个论文 Track，官方研究博客归入 Official Lab Blogs，普通文章/项目/工具归入 Others。原文无法唯一核实时不入库，标记“待补原文”。操作见 [`DUKOU.md`](DUKOU.md)，收录规则见 [`CHAT-CODEX.md`](CHAT-CODEX.md)。
 
 ## 目录
 
 ```text
 papers/<track>/<arxiv-id>.md  精读页面
-others/<slug>.md             用户主动提交的超范围资源
+others/<theme>/<slug>.md     用户主动提交的超范围资源（按主题）
 seed_papers.md                用户维护的 Seed
 PROCESS.md                    审核与写作协议
 AUTOMATION.md                 Scheduled Task 提示词与运行说明
