@@ -4,22 +4,9 @@
 
 ## 收录流程
 
-```mermaid
-flowchart LR
-  S[公开论文与研究资源] --> F[相关性筛选]
-  F --> R[原文精读与实验核对]
-  R --> C{内容分类}
-  C --> D[Data Synthesis]
-  C --> U[Rubric RL]
-  C --> H[Harness RSI]
-  C --> A[Credit Assignment]
-  C --> O[Others]
-  D --> N[结构化精读笔记]
-  U --> N
-  H --> N
-  A --> N
-  O --> N
-```
+![收录流程图](assets/intake-flow.png)
+
+收录有两种入口：每周一、周四从 arXiv、Hugging Face Daily Papers、Seed 关联工作和官方博客定时收集；平时由用户在微信 `nxc` 联系人窗口手动转发公众号／小红书链接或截图。两条入口都先去重、查找唯一原文，再按统一的中文精读格式处理。能核实原文的内容归入论文模块、Official Lab Blogs 或 Others 主题目录；只有二手推送或无法唯一核实原文的内容标记为“待补原文”，不进入仓库。
 
 ## 论文分类与收录索引
 
