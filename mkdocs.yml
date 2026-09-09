@@ -1,0 +1,49 @@
+site_name: Awesome Deep Research Papers
+site_description: Deep Research 论文与研究资源精读库
+site_url: https://uluckyxh.github.io/awesome-deep-research-papers/
+repo_url: https://github.com/uluckyXH/awesome-deep-research-papers
+repo_name: uluckyXH/awesome-deep-research-papers
+docs_dir: .
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: 切换到浅色模式
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+nav:
+  - 首页: README.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/uluckyXH/awesome-deep-research-papers
+copyright: Copyright &copy; 2026
