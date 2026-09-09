@@ -1,9 +1,9 @@
 site_name: Awesome Deep Research Papers
 site_description: Deep Research 论文与研究资源精读库
-site_url: https://uluckyxh.github.io/awesome-deep-research-papers/
-repo_url: https://github.com/uluckyXH/awesome-deep-research-papers
-repo_name: uluckyXH/awesome-deep-research-papers
-docs_dir: .
+site_url: https://chenxn2020.github.io/awesome-deep-research-papers/
+repo_url: https://github.com/chenxn2020/awesome-deep-research-papers
+repo_name: chenxn2020/awesome-deep-research-papers
+docs_dir: .site-docs
 theme:
   name: material
   language: zh
@@ -45,5 +45,5 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/uluckyXH/awesome-deep-research-papers
+      link: https://github.com/chenxn2020/awesome-deep-research-papers
 copyright: Copyright &copy; 2026

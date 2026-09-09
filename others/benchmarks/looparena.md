@@ -121,7 +121,7 @@ Type I 的正确答案由执行确定：先选父轨迹、再选可恢复的非 
 
 ## 与 Seed 的关系
 
-LoopArena 归入 **Others / Benchmarks**。本库 `Harness RSI` 要求训练或执行经验触发对 prompt、tools、skills、workflow、retrieval 或 scaffold 的验证后更新。LoopArena 固定执行 harness 与 Worker，只比较 Controller 在任务中的下一步决策；没有展示持久的 harness 更新、训练或晋升闭环。因此，运行时自适应指导本身不足以满足该 Track 的收录边界。[本库术语定义](../../CONTEXT.md)
+LoopArena 归入 **Others / Benchmarks**。本库 `Harness RSI` 要求训练或执行经验触发对 prompt、tools、skills、workflow、retrieval 或 scaffold 的验证后更新。LoopArena 固定执行 harness 与 Worker，只比较 Controller 在任务中的下一步决策；没有展示持久的 harness 更新、训练或晋升闭环。因此，运行时自适应指导本身不足以满足该 Track 的收录边界。
 
 以下为本笔记的关联推断，不是声称原论文引用了这些 Seed：
 

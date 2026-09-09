@@ -22,7 +22,12 @@ jobs:
         with:
           python-version: '3.x'
       - uses: actions/configure-pages@v5
-      - run: pip install mkdocs-material
+      - run: pip install mkdocs-material==9.7.7 mkdocs==1.6.1
+      - name: Prepare public content
+        run: |
+          mkdir -p .site-docs
+          cp README.md .site-docs/
+          cp -R papers others assets .site-docs/
       - run: mkdocs build --strict
       - uses: actions/upload-pages-artifact@v3
         with:
